@@ -17,17 +17,17 @@ Once the server is running. Open your browser and paste the following URL:<br><b
 # ABOUT THE REPOSITORY
 
 In this repository, we will demonstrate three techniques in FastAPI.
-- **Communication through "JSON Payload"**
+- **Communication through "JSON Payload"**<br>
 A payload is the actual data pack sent in an HTTP request. It is a piece of critical information when we make an API request. 
 This payload can be in several formats. We will look into the JSON format in particular as a majority of APIs communicate via a JSON 
 payload.
 
-- **Uploading a file**
+- **Uploading a file**<br>
 Uploading a file can be done with the UploadFile and File class from the FastAPI library. Let us keep this simple by just 
 creating a method that allows the user to upload a file. Once uploaded, we will display the name of the file as a response as well as 
 print it for verification in the command prompt.
 
-- **A combination of accepting data and file uploads**
+- **A combination of accepting data and file uploads**<br>
 We can create a function that supports a combination of accepting data and file uploads with the help of the "Depends" class. 
 A function may have dependencies for several reasons, such as code reusability, security, database connections, etc. 
 A Dependant function is a function that uses another function/class to carry out its activities.
