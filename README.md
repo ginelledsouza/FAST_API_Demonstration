@@ -7,12 +7,16 @@ The following packages are necessary to run any FastAPI scripts<br>
 The code must be run in the command prompt through the following command:<br><br>
 ```uvicorn Index:app --reload```
 
-**uvicorn** : Uvicorn is a fast web server.<br>
-**Index:app** : Index is the module where the FastAPI is initialized. app is the name of the variable which is assigned with the instance of FastAPI.<br>
-**--reload** : Reload is a flag for development purposes only. This will automatically restart the uvicorn server with any changes made in the code while in development.
+**uvicorn** : <br>Uvicorn is a fast web server.<br>
+**Index:app** : <br>Index is the module where the FastAPI is initialized. app is the name of the variable which is assigned with the instance of FastAPI.<br>
+**--reload** : <br>Reload is a flag for development purposes only. This will automatically restart the uvicorn server with any changes made in the code while in development.
 
 Once the server is running. Open your browser and paste the following URL:<br><br>
 ``` http://127.0.0.1:8000/ ```
+
+A user can test, understand, and interact with the remote service created. All we have to do is access the OpenAPI Specification (OAS) 
+through the "/docs" directory. In other words, simply access: 
+``` http://127.0.0.1:8000/docs ```
 
 # ABOUT THE REPOSITORY
 
