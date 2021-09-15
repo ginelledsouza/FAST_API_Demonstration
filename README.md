@@ -4,7 +4,7 @@ The following packages are necessary to run any FastAPI scripts<br>
 - fastapi (pip install fastapi)
 - uvicorn (pip install uvicorn)
 
-The code must be run in the command prompt through the following command:<br><br>
+The code must be executed in the command prompt through the following command:<br><br>
 ```uvicorn Index:app --reload```
 
 **uvicorn** : Uvicorn is a fast web server.<br>
