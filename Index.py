@@ -12,6 +12,7 @@ class Options(BaseModel):
 async def get_data(request: Request,options: Options):
     
     result = await request.json()
+    print(result)
      
     return result
 
@@ -30,5 +31,6 @@ async def upload_accept_file(options: Options = Depends(),data: UploadFile = Fil
     data_options = options.dict()
     
     result = "Uploaded Filename: {}. JSON Payload: {}".format(data.filename,data_options)
+    print(result)
     
     return result
